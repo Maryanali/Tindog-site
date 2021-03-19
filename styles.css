@@ -7,7 +7,14 @@ body {
 
   background-color: #ff4c68;
 }
-
+h3,
+.bold-title {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+p {
+  color: #8f8f8f;
+}
 #container-fluid {
   padding: 3% 15%;
 }
@@ -50,4 +57,31 @@ body {
   width: 60%;
   transform: rotate(25deg);
   margin-left: 50px;
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+}
+.feature-box {
+  text-align: center;
+  padding: 7%;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
 }
