@@ -9,13 +9,14 @@ body {
 }
 h2,
 .bold-title2 {
-  font-family: Montserrat;
-  font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
 }
 h3,
-.bold-title {
+h2,
+.bold-title,
+.bold-title2,
+.cta-heading {
   font-family: "Montserrat";
   font-weight: 900;
 }
@@ -63,7 +64,7 @@ p {
 .title-img {
   width: 60%;
   transform: rotate(25deg);
-  /* margin-left: 50px; */
+  margin-left: 50px;
 }
 
 /* Features Section */
@@ -129,8 +130,6 @@ p {
 }
 
 .cta-heading {
-  font-family: Montserrat;
-  font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
